@@ -1,9 +1,11 @@
 $( "#top-dot-1" ).click(function() {
     $("#top-dot-1").toggleClass("active");
+    $(this).children().toggleClass("app-active");
 });
 
 $( "#top-dot-2" ).click(function() {
     $("#top-dot-2").toggleClass("active");
+    $(this).children().toggleClass("app-active");
 });
 
 $( ".app-inner" ).click(function() {
@@ -12,20 +14,10 @@ $( ".app-inner" ).click(function() {
     
 });
 
-
-$( "#top-dot-1-wood" ).click(function() {
-    $("#top-dot-1-wood").toggleClass("active-wood");
+document.querySelector('.menu').addEventListener('click', function() {
+    this.classList.toggle('activated');
 });
 
-$( "#top-dot-2-wood" ).click(function() {
-    $("#top-dot-2-wood").toggleClass("active-wood");
-});
-
-$( ".app-inner-wood" ).click(function() {
-    $(this).toggleClass("active-wood");
-    $(this).children().toggleClass("app-active-wood");
-    
-});
 
 
 

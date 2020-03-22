@@ -10,14 +10,31 @@ for (let i = 0; i < 4; i++) {
     `)
 }
 
-const appContainerWood = document.querySelector(".app-container-wood")
+const notesContainer = document.querySelector(".notes-container")
 
-for (let i = 0; i < 4; i++) {
-    appContainerWood.insertAdjacentHTML("afterbegin", `
-        <div class="app-wood">
-            <div class="app-inner-wood">
-                <div class="app-icon-wood"></div>
+for (let i = 0; i < 2; i++) {
+    notesContainer.insertAdjacentHTML("afterbegin", `
+        <div class="note">
+            <div class="note-top">
+                <div class="time">11:43 AM</div>
+                    
+                    <a href="#" class="menu">
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                        <div class="pix"></div>
+                    </a>
+            </div>
+            <div class="note-bottom">
+                <p id="day-initial">S M T W T F S</p>
             </div>
         </div>
     `)
 }
+
+
