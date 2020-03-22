@@ -1,0 +1,284 @@
+.case-wood {
+    /* margin-top: 3vw; */
+    margin: 3vw;
+    height: 728px;
+    width: 355px;
+    grid-column: 2;
+    border-radius: 70px;
+    background: #1d0b01;
+    box-shadow:  -20px 20px 39px #2b0f12, 
+                 20px -20px 39px #ad3b4a;
+    padding: 15px;
+    position: absolute;
+    /* background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    background-size: contain; */
+    
+}
+
+.frame-wood {
+    height: inherit;
+    width: inherit;
+    border-radius: 60px;
+    background: rgb(66, 28, 28);
+    position: absolute;
+    display: grid;
+    grid-template-rows: max-content max-content min-content min-content auto;
+    /* background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    background-size: contain; */
+   /* opacity: .5; */
+}
+
+.tab-wood {
+    position: relative;
+    background-color: #1d0b01;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px  30px 30px;
+    height: 22px;
+    width: 180px;
+    box-shadow:  20px 20px 60px #5c1f27, 
+             -20px -20px 60px #7c2b35;
+    grid-row: 1;
+    
+}
+
+.top-dops-wood {
+    grid-row: 2;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px;
+    
+}
+
+.top-dot-wood {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #272727;
+    box-shadow: -8px 8px 16px #000000, 
+                8px -8px 16px #2a0f13;
+                background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+                background-size: contain;
+}
+
+#top-dot-1-wood {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#top-dot-2-wood {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-dot-inner-1-wood {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #503638, #a46b71);
+    box-shadow:  -27px 27px 53px #000000, 
+                 27px -27px 53px #4747478e;
+                 background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+                 background-size: contain;
+                 opacity: .9;
+}
+
+.top-dot-inner-2-wood {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+                 background-size: contain;
+                 opacity: .9;
+}
+
+.dots-wood {
+    grid-row: 3;
+    margin-left: auto;
+    margin-right: auto;
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    background: #000000;
+    box-shadow:  -20px 20px 39px #555555, 
+                 20px -20px 39px #1f0a0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    background-size: contain;
+}
+
+.inner-dot-wood {
+    margin-left: 3px;
+    margin-bottom: 5px;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+background: linear-gradient(225deg, #9b4751, #ececec);
+    box-shadow:  -27px 27px 53px #000000, 
+                 27px -27px 53px #4747478e;
+    
+    
+}
+
+.app-container-wood {
+    grid-row: 4;
+    margin: 5%;
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.app-wood {
+height: 65px;
+width: 65px;
+margin: 2%;
+border-radius: 50%;
+background: #363636;
+box-shadow: -8px 8px 16px #000000, 
+            8px -8px 16px #3333337c;
+            background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+            background-size: contain;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.app-inner-wood {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #503638, #a46b71);
+    box-shadow:  -27px 27px 53px #272727, 
+                 27px -27px 53px #7e7e7e8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-icon-wood {
+    background-image: url("https://designroast.org/wp-content/uploads/2014/01/flat-jelly.png");
+    /* background-color: rgba(255, 255, 255, 0.192); */
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    opacity: .7;
+    border-radius: 50%;
+}
+
+.active-wood {
+    background: linear-gradient(225deg, #88444d, #a2505b);
+             box-shadow: inset -11px 11px 31px #653239, 
+                         inset 11px -11px 31px #c96471;
+}
+
+.app-active-wood {
+    height: 53px;
+    width: 53px;
+}
+
+
+
+
+.temp-body {
+    /* grid-row: 5; */
+    /* margin: 5%; */
+    /* width: 325px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+.sha_temp
+{
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: 30px 30px 30px -10px rgba(136, 59, 59, 0.9),
+                -30px -30px 30px -10px rgba(255,255,255,0.4),
+                -0.5px -0.5px 0 #8B323F,
+                0.5px 0.5px 0 rgba(0, 0, 0, 0.671);
+}
+
+.sha_temp > span
+{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.sha_temp > span > span.temp-data
+{
+    font-size: 60px;
+    font-weight: 600;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+.sha_temp > span > span.temp-data sup
+{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    top: 24%;
+}
+
+.sha_temp > span > span.temp-info
+{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    white-space: nowrap;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sha_temp:before
+{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 88%;
+    height: 88%;
+    border-radius: inherit;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7);
+}
+
+ .sha_temp:after
+{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 78%;
+    height: 78%;
+    border-radius: inherit;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(0,0,0,0.025);
+    border: 1px solid rgba(0,0,0,0.01);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7);
+}
